@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<title>Seyed Vahid Ghayoomie — CV</title>
+<!-- Source of CV-SeyedVahidGhayoomie.pdf (public version: no phone number).
+     Rebuild:  python3 -m weasyprint cv/cv.html cv/CV-SeyedVahidGhayoomie.pdf  -->
+<style>
+  @page { size: A4; margin: 11mm 13mm 10mm 13mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "Times New Roman", "Liberation Serif", Times, serif;
+         font-size: 9.9pt; line-height: 1.26; color: #232323; margin: 0; }
+  .name { font-size: 21pt; font-weight: 700; letter-spacing: .5px; color: #17303f; margin: 0 0 2pt 0; }
+  .tagline { font-size: 10.6pt; color: #3a5a6f; margin: 0 0 5pt 0; }
+  .contact { font-size: 9pt; color: #444; margin: 0 0 3pt 0; }
+  .contact a { color: #444; text-decoration: none; }
+  .contact .sep { color: #b7c3c9; margin: 0 5pt; }
+  .header-rule { border: none; border-top: 1.6pt solid #17303f; margin: 5pt 0 8pt 0; }
+  h2 { font-size: 10.2pt; letter-spacing: 1.3px; text-transform: uppercase; color: #17303f;
+       font-weight: 700; margin: 9pt 0 4pt 0; padding-bottom: 2pt; border-bottom: .9pt solid #c9d3d8;
+       page-break-after: avoid; break-after: avoid; }
+  h2:first-of-type { margin-top: 0; }
+  .summary { margin: 0 0 3pt 0; color: #2b2b2b; }
+  .avail { margin: 4pt 0 0 0; padding: 3pt 6pt; background: #f2f6f8; border-left: 2.2pt solid #17303f;
+           font-size: 9.3pt; color: #2b3b44; }
+  .entry { margin-bottom: 5.5pt; }
+  .entry-row, .entry-sub { break-after: avoid; page-break-after: avoid; }
+  ul.bullets li { break-inside: avoid; page-break-inside: avoid; }
+  .entry:last-child { margin-bottom: 0; }
+  .entry-row { display: flex; justify-content: space-between; align-items: baseline; gap: 10pt; }
+  .entry-title { font-weight: 700; font-size: 10.2pt; color: #17303f; }
+  .entry-date { font-size: 9.2pt; color: #5b6b74; white-space: nowrap; }
+  .entry-sub { display: flex; justify-content: space-between; align-items: baseline; font-style: italic;
+               color: #4a5a63; font-size: 9.4pt; margin-bottom: 2pt; gap: 10pt; }
+  ul.bullets { margin: 0; padding-left: 12pt; }
+  ul.bullets li { margin-bottom: 2pt; padding-left: 2pt; }
+  ul.bullets li:last-child { margin-bottom: 0; }
+  .skills-row { margin-bottom: 2.8pt; }
+  .skills-row:last-child { margin-bottom: 0; }
+  .skills-label { font-weight: 700; color: #17303f; }
+  .pub { margin: 0 0 3pt 0; }
+  .pub:last-child { margin-bottom: 0; }
+  .two { display: flex; gap: 14pt; }
+  .two > div { flex: 1 1 0; }
+  strong { color: #17303f; }
+  a { color: #17303f; text-decoration: none; }
+</style>
+</head>
+<body>
+  <div class="name">Seyed Vahid Ghayoomie</div>
+  <div class="tagline">Computational Systems Engineer &nbsp;·&nbsp; big data, cloud, DevOps &amp; MLOps, security, ML &amp; HPC &nbsp;·&nbsp; 15+ years</div>
+  <div class="contact">
+    Milan, Italy <span class="sep">|</span>
+    <a href="mailto:vahidghayoomi@gmail.com">vahidghayoomi@gmail.com</a> <span class="sep">|</span>
+    <a href="https://www.linkedin.com/in/vahid-ghayoomie">linkedin.com/in/vahid-ghayoomie</a> <span class="sep">|</span>
+    <a href="https://github.com/VahidGh">github.com/VahidGh</a> <span class="sep">|</span>
+    <a href="https://vahidgh.github.io">vahidgh.github.io</a>
+  </div>
+  <hr class="header-rule">
+
+  <h2>Summary</h2>
+  <p class="summary">Computational systems engineer with interdisciplinary expertise in big data architecture, cloud
+  infrastructure, DevOps and MLOps, security and reliability, data science, machine learning, performance-oriented software
+  development,
+  and bio-inspired AI. More than 15 years of experience across application security and system design for banking and
+  government institutions, a national bank's big-data platform and fraud-detection system (about five times cheaper than the
+  stack it replaced), and the founding and technical leadership of a start-up, alongside independent consulting in cloud,
+  data and AI.</p>
+  <p class="summary">Keeping up with science is part of my routine: two peer-reviewed papers and an invited talk at The Royal
+  Society. Currently pursuing my continuing education through a Master's in High Performance Computing Engineering at
+  Politecnico di Milano, with research interests in scalable simulation systems, parallel computing, and emerging quantum
+  machine learning paradigms.</p>
+  <p class="avail"><strong>Based in Milan, Italy.</strong> Open to full-time roles in Milan (on-site or hybrid) and remote roles
+  in Europe. Languages: English C1 (IELTS 7.0), Persian native, Italian and French in progress.</p>
+
+  <h2>Core Skills</h2>
+  <div class="skills-row"><span class="skills-label">Software development lifecycle —</span> requirements engineering and use
+    cases, multi-view architecture and UML, code review, unit, integration, fuzz and metamorphic testing, static analysis and
+    coverage, V&amp;V and traceability, CI/CD, Git and semantic versioning, containerised delivery (Docker, Apptainer),
+    technical documentation, secure SDLC, project management</div>
+  <div class="skills-row"><span class="skills-label">Data platforms —</span> Hadoop, Spark, Hive, HBase, Kafka, BigQuery; PostgreSQL,
+    MySQL, Oracle, MongoDB, Neo4j</div>
+  <div class="skills-row"><span class="skills-label">AI &amp; LLM systems —</span> PyTorch, TensorFlow/Keras, scikit-learn, JAX,
+    Hugging Face, GNNs, PINNs; LLMs, RAG, agents, MCP, evaluation; Claude, OpenAI, Gemini, Vertex AI, LangChain</div>
+  <div class="skills-row"><span class="skills-label">Cloud, DevOps &amp; MLOps —</span> GCP, AWS, Azure, OpenStack; Docker,
+    Kubernetes, Terraform; GitHub Actions, GitLab CI/CD; MLflow, Kubeflow, DVC; Prometheus, Grafana</div>
+  <div class="skills-row"><span class="skills-label">HPC &amp; scientific computing —</span> modern C++ (17/20), CUDA, OpenCL,
+    OpenMP, MPI; SLURM and Singularity/Apptainer on CINECA Galileo100; numerical methods, profiling and performance
+    tuning</div>
+  <div class="skills-row"><span class="skills-label">Security —</span> penetration testing (white-box and black-box),
+    secure-code review, fuzzing, reverse engineering, secure SDLC (OWASP, WASC, Microsoft SDL), WAF design, honeypots, SIEM,
+    OAuth2/OIDC, secrets management</div>
+  <div class="skills-row"><span class="skills-label">Languages &amp; backend —</span> Python (15+ years), C/C++, SQL, Bash,
+    JavaScript/TypeScript, Java, C#, PHP, R, MATLAB; FastAPI, Django, Flask, REST and GraphQL APIs, webhooks, React</div>
+
+  <h2>Experience</h2>
+  <div class="entry">
+    <div class="entry-row"><span class="entry-title">Independent Research Engineer, Consultant &amp; Start-up Founder</span><span class="entry-date">Sep 2018 – Present</span></div>
+    <div class="entry-sub"><span>Self-employed — AI, cloud, data &amp; HPC</span><span>Milan / Tehran</span></div>
+    <ul class="bullets">
+      <li><strong>HPC &amp; scientific computing</strong> (2025–): parallel and GPU software in modern C++ (CUDA, OpenCL, OpenMP,
+        MPI) on CINECA's Galileo100 with SLURM and Apptainer: wormsim2, a real-time <em>C. elegans</em> simulator (Hodgkin–Huxley
+        neural model and finite-element body) about 40× faster than serial, and AstraLog-HPC, a C++17 pipeline built as a full
+        SE cycle.</li>
+      <li><strong>Co-Founder &amp; CEO, Neur Asal Ware</strong> (2022–23): owned architecture, delivery and hiring; ran our cloud on
+        OpenStack with GitLab CI/CD for e-commerce and real-estate clients and cut infrastructure cost by about 30%.</li>
+      <li><strong>Agentic AI:</strong> built and run a multi-agent system on Claude, with parallel sub-agents, custom MCP tools,
+        structured outputs and automatic checks on every result, in daily use for real work; designed and built MatNeuron,
+        an AI-powered web-based simulation environment for neural and biomechanical models.</li>
+      <li><strong>Freelance consulting:</strong> cloud architecture, secure-SDLC reviews, data-platform design and scientific
+        software for clients.</li>
+      <li><strong>Start-up mentoring:</strong> teams building a portable point-of-sale platform for Day Bank, a
+        property-share investment platform, a group-savings app, a React web-shop builder and a local blockchain platform on
+        Stellar.</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <div class="entry-row"><span class="entry-title">Big Data Platform Engineer &amp; Data Scientist</span><span class="entry-date">Apr 2015 – Sep 2018</span></div>
+    <div class="entry-sub"><span>Sadad Informatics Corp. — Melli Bank Iran</span><span>Tehran</span></div>
+    <ul class="bullets">
+      <li>Designed and rolled out an on-premise Hadoop/Spark platform on OpenStack (IBM BigInsights, Hortonworks, Hive, HBase,
+        BigSQL, Flume, Ambari). It replaced a costly proprietary stack and cut data-infrastructure cost about five-fold.</li>
+      <li>Co-designed a near-real-time fraud-detection system that combines streaming and batch ML scoring on banking
+        transactions.</li>
+      <li>Coordinated two engineering teams, for data infrastructure and data science, who built on the platform every day.</li>
+      <li>Consulted on secure authentication, device fingerprinting ("digital DNA") and a mobile-banking security SDK.</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <div class="entry-row"><span class="entry-title">Software &amp; Systems Engineer — application and system design</span><span class="entry-date">Jul 2008 – Mar 2015</span></div>
+    <div class="entry-sub"><span>Tosan Corp. &amp; Saba System Sadra Corp.</span><span>Tehran</span></div>
+    <ul class="bullets">
+      <li><strong>System Engineer &amp; Project Manager, Saba System Sadra</strong> (2012–15): designed Azaram, a Linux
+        web-application firewall with HTTPS offloading, load balancing, high availability, a self-healing monitoring layer and
+        a signature-update centre, protecting government and financial web systems; led the team and the tests. Also worked
+        on the Mavara SIEM and the Kandoo honeypot for network-security monitoring and threat research.</li>
+      <li><strong>Software Security Engineer &amp; Trainer, Tosan</strong> (2008–12): white-box and black-box penetration
+        testing, secure-code review, fuzzing and reverse engineering for banking and government systems; wrote security
+        patches and secure-development policies.</li>
+      <li>Trained developers on the secure SDLC (OWASP, WASC, Microsoft SDL), penetration testing and code review, and ran
+        security assessments for banks, telecom and energy companies and public bodies (2010–14).</li>
+      <li>Volunteer researcher, Honeynet Project, Iranian chapter (2011): honeypots (Glastopf), malware and rootkit detection.</li>
+    </ul>
+  </div>
+
+  <h2>Research — about 20% of my week</h2>
+  <div class="entry">
+    <div class="entry-row"><span class="entry-title">Senior Contributor, Volunteer Software Engineer &amp; Scientist</span><span class="entry-date">Nov 2014 – Present</span></div>
+    <div class="entry-sub"><span>OpenWorm Foundation — open-source simulation of <em>C. elegans</em></span><span>Remote</span></div>
+    <ul class="bullets">
+      <li>Proposed and led <strong>ChannelWorm</strong> (2015–18): curated patch-clamp data from the literature, fitted
+        Hodgkin–Huxley models, estimated kinetics for channels with no data from homologous channels, and built the Python
+        APIs and validation tests used across the OpenWorm ecosystem to check that models match the experiments.</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <div class="entry-row"><span class="entry-title">Research Assistant</span><span class="entry-date">Mar – Sep 2014</span></div>
+    <div class="entry-sub"><span>Laboratory of Systems Biology &amp; Bioinformatics, University of Tehran</span><span>Tehran</span></div>
+    <ul class="bullets">
+      <li>Predicted ion-channel kinetics from protein sequence with ML, optimisation and multiple-sequence alignment; digitised
+        200+ channel sequences with electrophysiology data from the literature.</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <div class="entry-row"><span class="entry-title">Independent research projects</span><span class="entry-date">2018 – Present</span></div>
+    <ul class="bullets">
+      <li><strong>chModeler / Chopen:</strong> a compact ion-channel model (about 5 parameters) fitted in seconds for about
+        270 curated channels, with an ML predictor of kinetics from amino-acid sequence.</li>
+      <li><strong>SC-PINN</strong> (PoliMi, 2026): physics-informed graph neural network in PyTorch with ESM2
+        protein-language-model embeddings that predicts ion-channel gating, benchmarked against classical Markov and
+        Hodgkin–Huxley models.</li>
+      <li><strong>Interests:</strong> bio-inspired AI, robotics and control, and quantum computing for scalable simulation.</li>
+    </ul>
+  </div>
+
+  <h2>Publications &amp; Talks</h2>
+  <p class="pub">Invited speaker, The Royal Society, London, January 2018 — "Ion channels: from literature to computational
+    model", at the meeting <em>Connectome to behaviour: modelling C. elegans at cellular resolution</em>.</p>
+  <p class="pub">Sarma GP, Lee CW, Portegys T, <strong>Ghayoomie V</strong>, et al. <em>OpenWorm: overview and recent advances
+    in integrative biological simulation of Caenorhabditis elegans.</em> Phil. Trans. R. Soc. B 373: 20170382, 2018.
+    doi:10.1098/rstb.2017.0382</p>
+  <p class="pub">Sarma GP, Jacobs TW, Watts MD, <strong>Ghayoomie SV</strong>, Larson SD, Gerkin RC. <em>Unit testing, model
+    validation, and biological simulation.</em> F1000Research 5: 1946, 2016. doi:10.12688/f1000research.9315.1</p>
+
+  <h2>Education</h2>
+  <div class="entry">
+    <div class="entry-row"><span class="entry-title">M.Sc. High Performance Computing Engineering — Politecnico di Milano</span><span class="entry-date">Sep 2025 – Present</span></div>
+    <div class="entry-sub"><span>Milan · Parallel Computing (CUDA/OpenMP), Advanced Methods for Scientific Computing (modern C++),
+      Numerical Methods for PDEs, Numerical Linear Algebra, Numerical Analysis for ML, Applied Statistics, Software Engineering for HPC</span></div>
+  </div>
+  <div class="entry">
+    <div class="entry-row"><span class="entry-title">M.Sc. studies, Mechatronics Engineering — Sharif University of Technology (Kish campus)</span><span class="entry-date">2019 – 2021</span></div>
+    <div class="entry-sub"><span>Coursework completed: Artificial Neural Networks, Advanced Automatic Control, Signals and Systems, Dynamics</span></div>
+  </div>
+  <div class="entry">
+    <div class="entry-row"><span class="entry-title">M.Sc. studies, Biology / Biochemistry — Payame Noor University</span><span class="entry-date">2011 – 2014</span></div>
+    <div class="entry-sub"><span>Coursework completed; thesis (not defended): “Computational Modeling of Ion Channels and
+      Structure-Function Relationship Analysis”</span></div>
+  </div>
+  <div class="entry">
+    <div class="entry-row"><span class="entry-title">B.Sc. Information Technology Engineering — Islamic Azad University</span><span class="entry-date">2005 – 2010</span></div>
+    <div class="entry-sub"><span>GPA 17.43/20 (87%), among the top graduates of the cohort</span></div>
+  </div>
+
+  <h2>Certificates</h2>
+  <div class="skills-row"><span class="skills-label">Google Cloud Skills Boost (2022–26) —</span> Vertex AI, MLOps Fundamentals,
+    BigQuery ML, Generative AI with Gemini, Responsible AI, Data Engineering on Google Cloud (badges:
+    credly.com/users/vahid-ghayoomie)</div>
+  <div class="skills-row"><span class="skills-label">IBM —</span> Data Science Professional Certificate (2021) &nbsp;·&nbsp;
+    <span class="skills-label">Linux Foundation —</span> Introduction to Cloud Infrastructure Technologies; Blockchain for
+    Business with Hyperledger (2018)</div>
+  <div class="skills-row"><span class="skills-label">Coursera —</span> Python for Genomic Data Science (Johns Hopkins),
+    Computational Neuroscience (U. Washington), Practical Machine Learning, Pattern Discovery in Data Mining (UIUC), Front-End
+    Web Development with React (HKUST)</div>
+</body>
+</html>
